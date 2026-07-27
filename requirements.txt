@@ -1,0 +1,20 @@
+# --- Core Deep Learning & Signal Processing ---
+torch
+wfdb==4.1.2
+captum==0.6.0
+
+# --- Explainable AI (XAI) ---
+shap==0.44.0
+lime==0.2.0.1
+
+# --- Data Science & Machine Learning ---
+numpy
+pandas
+scipy
+scikit-learn
+imbalanced-learn
+
+# --- Visualization & Utilities ---
+matplotlib
+seaborn
+tqdm
