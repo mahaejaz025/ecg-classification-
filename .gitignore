@@ -1,0 +1,68 @@
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+
+# ---- Virtual environments ----
+.venv/
+venv/
+env/
+ENV/
+
+# ---- Jupyter ----
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+profile_default/
+ipython_config.py
+
+# ---- Datasets (never commit — download from source) ----
+data/
+datasets/
+*.csv
+*.dat
+*.hea
+*.atr
+*.mat
+*.edf
+mitdb/
+incartdb/
+mendeley/
+*.zip
+*.tar
+*.tar.gz
+
+# ---- Model weights and training artifacts ----
+*.pt
+*.pth
+*.ckpt
+*.h5
+*.pkl
+*.joblib
+checkpoints/
+runs/
+logs/
+lightning_logs/
+wandb/
+mlruns/
+
+# ---- Generated outputs ----
+# Comment these out if you want generated figures tracked in the repo
+outputs/
+results/
+*.npy
+*.npz
+
+# ---- Editors and OS ----
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
+
+# ---- Secrets ----
+.env
+*.key
