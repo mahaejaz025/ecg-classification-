@@ -1,67 +1,59 @@
+# ---- Data (never commit; downloaded from PhysioNet / Kaggle / Mendeley) ----
+data/
+datasets/
+mitdb/
+incartdb/
+mendeley/
+*.csv
+*.hea
+*.dat
+*.atr
+*.mat
+*.npy
+*.npz
+*.h5
+*.hdf5
+
+# ---- Model checkpoints (not distributed; retrain from code) ----
+checkpoints/
+weights/
+runs/
+*.pt
+*.pth
+*.ckpt
+*.onnx
+*.pkl
+*.joblib
+
+# ---- Generated outputs ----
+outputs/
+results/
+logs/
+cache/
+.cache/
+*.log
+
 # ---- Python ----
 __pycache__/
 *.py[cod]
 *.so
-.Python
+*.egg-info/
 build/
 dist/
-*.egg-info/
-
-# ---- Virtual environments ----
 .venv/
 venv/
 env/
 ENV/
 
-# ---- Jupyter ----
+# ---- Notebooks ----
 .ipynb_checkpoints/
-*/.ipynb_checkpoints/*
-profile_default/
-ipython_config.py
 
-# ---- Datasets (never commit — download from source) ----
-data/
-datasets/
-*.csv
-*.dat
-*.hea
-*.atr
-*.mat
-*.edf
-mitdb/
-incartdb/
-mendeley/
-*.zip
-*.tar
-*.tar.gz
-
-# ---- Model weights and training artifacts ----
-*.pt
-*.pth
-*.ckpt
-*.h5
-*.pkl
-*.joblib
-checkpoints/
-runs/
-logs/
-lightning_logs/
-wandb/
-mlruns/
-
-# ---- Generated outputs ----
-# Comment these out if you want generated figures tracked in the repo
-outputs/
-results/
-*.npy
-*.npz
-
-# ---- Editors and OS ----
+# ---- Editors / OS ----
 .vscode/
 .idea/
-*.swp
 .DS_Store
 Thumbs.db
+*.swp
 
 # ---- Secrets ----
 .env
